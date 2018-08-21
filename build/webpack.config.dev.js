@@ -13,7 +13,7 @@ module.exports = {
   mode:"development",// 开发模式
   entry: {
     vendor: ["echarts"],
-    home:["webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000", path.join(__dirname, '../src/index.js')],
+    home:["webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000&reload=true", path.join(__dirname, '../src/index.js')],
   },
   // where to place the compiled bundle
   output: {
